@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Modern House</title>
+    <link rel="stylesheet" href="assets/styles/style.css" />
+  </head>
+  <body>
+    <!--TODO Header -->
+    <header>
+      <div class="logo">
+        <img src="assets/images/logo.png" alt="Logo" width="100" />
+      </div>
+      <div class="navigationHeader">
+        <nav>
+          <ul>
+            <li><a href="#homepage">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#view">View</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <!--TODO Main -->
+    <main>
+      <!-- Homepage -->
+      <div id="homepage" class="homepage">
+        <h1><span>Welcome to</span><br />Buying<br />Modern House</h1>
+        <p>
+          Discover your dream home with our modern and stylish house designs. Whether you're a growing family or looking for a luxurious living space, we have the perfect option for you. Explore our range of houses that combine comfort,
+          functionality, and elegance.
+        </p>
+      </div>
+
+      <!-- About -->
+      <div id="about" class="about">
+        <nav>
+          <ul>
+            <!-- Navigation to Modern House Type A -->
+            <div class="modernHouseTypeA">
+              <a href="#typeA"><img src="assets/images/typeA.jpg" alt="Modern House Type A" /></a>
+              <li><a href="#typeA">Modern House Type A</a></li>
+            </div>
+
+            <!-- Navigation to Modern House Type B -->
+            <div class="modernHouseTypeB">
+              <a href="#typeB"><img src="assets/images/typeB.jpg" alt="Modern House Type B" /></a>
+              <li><a href="#typeB">Modern House Type B</a></li>
+            </div>
+
+            <!-- Navigation to Modern House Type C -->
+            <div class="modernHouseTypeC">
+              <a href="#typeC"><img src="assets/images/typeC.jpg" alt="Modern House Type C" /></a>
+              <li><a href="#typeC">Modern House Type C</a></li>
+            </div>
+          </ul>
+        </nav>
+      </div>
+
+      <!-- View -->
+      <div id="view" class="view">
+        <h2>Modern House Types</h2>
+
+        <!--TODO Article 1  -->
+        <!-- Modern House Type A -->
+        <article>
+          <h3 id="typeA">Modern House Type A</h3>
+          <img class="propertyImage" src="assets/images/typeA.jpg" alt="Modern House Type A" />
+          <p>The Type A House is a family-friendly home at a reasonable price, perfect for young families seeking comfort and practicality. Its modern design with efficient space layout creates a warm atmosphere for family gatherings.</p>
+          <p>Includes:</p>
+          <ul>
+            <li>Refrigerator</li>
+            <li>Smart door lock</li>
+            <li>Built-in stove</li>
+            <li>Kitchen set</li>
+            <li>Hot water installation</li>
+          </ul>
+          <button type="submit" class="btn" id="btn1">$1,000,000</button>
+        </article>
+
+        <!--TODO Article 2  -->
+        <!-- Modern House Type B -->
+        <article>
+          <h3 id="typeB">Modern House Type B</h3>
+          <img class="propertyImage" src="assets/images/typeB.jpg" alt="Modern House Type B" />
+          <p>The Type B House offers more spacious rooms, ideal for families looking for extra comfort. With an elegant design, optimal natural lighting, and good ventilation, this home ensures a healthy and cozy living environment.</p>
+          <p>Includes:</p>
+          <ul>
+            <li>Refrigerator</li>
+            <li>Smart door lock</li>
+            <li>Washing machine</li>
+            <li>AC in the main room</li>
+            <li>Premium kitchen set</li>
+          </ul>
+          <button type="submit" class="btn" id="btn2">$2,500,000</button>
+        </article>
+
+        <!--TODO Article 3  -->
+        <!-- Modern House Type C -->
+        <article>
+          <h3 id="typeC">Modern House Type C</h3>
+          <img class="propertyImage" src="assets/images/typeC.jpg" alt="Modern House Type C" />
+          <p>
+            If you're looking for a home with complete facilities and a touch of luxury, the Type C House is the perfect choice. Featuring a modern minimalist design and high-quality materials, it provides an exceptional living experience.
+          </p>
+          <p>Includes:</p>
+          <ul>
+            <li>Double-door refrigerator</li>
+            <li>Premium smart door lock</li>
+            <li>AC in all rooms</li>
+            <li>Water heater</li>
+            <li>Exclusive kitchen set</li>
+            <li>Built-in wardrobe</li>
+          </ul>
+          <button type="submit" class="btn" id="btn3">$4,000,000</button>
+        </article>
+      </div>
+
+      <!-- Modal Pop-Up -->
+      <div id="myModal" class="modal">
+        <div class="modal-content">
+          <span class="close">&times;</span>
+          <h2 id="modalMessage">Payment Confirmation</h2>
+          <!-- Display Data -->
+          <div id="modalData">
+            <p id="priceData"></p>
+            <p id="additionalInfo"></p>
+          </div>
+          <!-- Pay Now Button -->
+          <button id="payNowBtn" class="btn">Pay Now</button>
+        </div>
+      </div>
+
+      <!--TODO Aside -->
+      <aside>
+        <div class="contact-info">
+          <h3 id="contact">Contact Information</h3>
+
+          <!-- Owner Photo -->
+          <div class="owner-photo">
+            <img src="assets/images/owner.jpg" alt="Company Owner" />
+          </div>
+
+          <!-- Contact Details -->
+          <ul class="contact-details">
+            <li>
+              <strong>Name:</strong> <br />
+              Zaki Rafi Athallah
+            </li>
+            <li>
+              <strong>Phone:</strong> <br />
+              +62 878 7441 8448
+            </li>
+            <li>
+              <strong>Email:</strong> <br />
+              zrafiathallah@gmail.com
+            </li>
+            <li>
+              <strong>Address:</strong> <br />
+              Jl. Buahbatu, No. 01, Bandung, Indonesia
+            </li>
+            <li>
+              <strong>Working Hours:</strong> <br />
+              Monday - Friday, 09:00 AM - 05:00 PM
+            </li>
+          </ul>
+        </div>
+      </aside>
+    </main>
+
+    <!--TODO Footer -->
+    <footer>
+      <p>&copy; 2025 Modern House Company.</p>
+    </footer>
+
+    <!-- Script -->
+    <script src="assets/scripts/script.js"></script>
+  </body>
+</html>
